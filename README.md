@@ -2,7 +2,7 @@
 Sistem Informasi Manajemen Koperasi Simpan Pinjam
 
 ## Built With
-* [CodIgniter Version 3.1.9](https://codeigniter.com/download) - The web framework used
+* [CodeIgniter Version 3.1.9](https://codeigniter.com/download) - The web framework used
 * [AdminLTE](https://adminlte.io/) - Themes
 * [PhpSpreadsheet](https://phpspreadsheet.readthedocs.io/en/develop/) - PhpSpreadsheet
 
