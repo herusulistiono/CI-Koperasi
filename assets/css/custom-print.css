@@ -1,0 +1,149 @@
+body, table {
+    font-family: "Calibri";
+    font-size: 14px;
+    color: #003366;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+#container {
+    display: block;
+    min-height: 100%;
+    padding: 20px;
+}
+
+img.logo {
+    float: right;
+    margin: 0 25px 20x 0;
+}
+
+br, hr {clear: both}
+
+table.table-data, table.table-info {
+    margin: 20px 0 30px 0;
+    border-top: 1px solid #555555;
+    border-left: 1px solid #555555;
+}
+
+table.table-data th {font-weight: bold}
+
+table.table-data th, table.table-data td {
+    border-right: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    padding: 5px;
+}
+
+table.table-info { border: none; }
+table.table-info caption { 
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #cacaca; 
+    text-align: left;
+}
+table.table-info th, table.table-info td {
+    border: none;
+    border-bottom: 1px dashed #cacaca;
+    padding: 5px 0 5px 0;
+}
+
+img.imgpp {
+    z-index: 10;
+    position: absolute;
+    right: 1%;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border: 2px solid #999999;
+    padding: 2px;
+}
+
+.nota-container {
+    width: 700px;
+    border: 1px solid #006699;
+    margin: 10px;
+    padding: 10px;
+    min-height: 500px;
+}
+
+.nota-container img.logo {
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.comp-profile {
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 55%;
+    font-size: 11px;
+    /* border: 2px solid #003366; */
+}
+
+.comp-profile h2 {
+    font-family: "Arial";
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #003366;
+    text-transform: uppercase;
+}
+
+.right-box {
+    float: right;
+    width: 200px;
+    font-size: 11px;
+    /* border: 2px solid #003366; */
+}
+
+.right-box label, .right-box span {
+    width: 50px;
+    float: left;
+    color: #000000;
+    font-weight: bold;
+    margin: 0 3px 3px 0;
+}
+
+.right-box span {
+    width: 143px;
+    font-weight: normal;
+    border-bottom: 1px solid #000000;
+}
+
+.bold-line, .single-line {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin: 2px 0 2px 0;
+    border-bottom: 3px solid #003366;
+}
+
+.single-line {
+    margin: 0;
+    border-bottom: 1px solid #003366;
+}
+
+table.table-nota {
+    font-size: 12px;
+    border-top: 1px solid #006699;
+    border-left: 1px solid #006699;
+    margin: 5px 0 5px 0;
+}
+
+table.table-nota tr th, table.table-nota tr td {
+    border-right: 1px solid #006699;
+    border-bottom: 1px solid #006699;
+    padding: 5px;
+}
+
+table.table-nota tr th {
+    background: #0088cc;
+    color: #ffffff;
+}
