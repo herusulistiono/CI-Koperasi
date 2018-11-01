@@ -33,7 +33,7 @@
   </style>
   <table>
     <tr>
-      <th rowspan="3"><img src="<?php echo base_url('/assets/img/logo.png'); ?>" style="width:100px;height:100px" /></th>
+      <th rowspan="3"><img src="assets/img/logo.png" style="width:100px;height:100px" /></th>
       <td align="center" style="width: 520px;">
       	<font style="font-size: 20px"><strong>KOPERASI PEGAWAI <br>UNIVERSITAS INDRAPRASTA PGRI</strong></font>
       	<br>

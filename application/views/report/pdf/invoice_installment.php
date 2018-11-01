@@ -149,7 +149,7 @@ table.table-nota tr th {
 </style>
 <div class="nota-container">
         <div>
-            <img src="<?php echo base_url('assets/img/logo.png') ?>" class="logo" width="90px"/>
+            <img src="assets/img/logo.png" class="logo" width="90px"/>
             <div class="right-box">
                 <label>Tanggal</label><span></span><br>
                 <label>No</label><span><?php echo $no_kwitansi; ?></span><br>
