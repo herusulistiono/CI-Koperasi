@@ -3,7 +3,7 @@
   <div class="box-body">
     <div class="col-md-12"><div id="msg"><?php echo $message;?></div></div>
     <div class="col-md-6">
-      <?php echo form_open("users/create_user",array("onSubmit"=>"return validate(this)"));?>
+      <?php echo form_open("users/create_user",array("onSubmit"=>"return validate(this)","autocomplete"=>"off"));?>
         <div class="form-group">
           <?php echo lang('create_user_fname_label', 'first_name');?>
           <?php echo form_input($first_name);?>
@@ -13,13 +13,13 @@
           <?php echo form_input($last_name);?>
         </div>
         <?php
-        if($identity_column!=='email') {
-          echo '<div class="form-group">';
-          echo lang('create_user_identity_label','identity');
-          echo form_error('identity');
-          echo form_input($identity);
-          echo '</div>';
-        }?>
+          if($identity_column!=='email') {
+            echo '<div class="form-group">';
+            echo lang('create_user_identity_label', 'identity');
+            echo form_error('identity');
+            echo form_input($identity);
+            echo '</div>';
+           }?>
         <div class="form-group">
           <?php echo lang('create_user_company_label','company');?>
           <?php echo form_input($company);?>

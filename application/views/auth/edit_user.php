@@ -4,14 +4,6 @@
     <div id="infoMessage"><?php echo $message;?></div>
     <?php echo form_open(uri_string(),array('autocomplete'=>'off'));?>
       <div class="form-group">
-        <label>Username:</label>
-        <?php echo form_input($username); ?>
-      </div>
-      <div class="form-group">
-        <?php echo lang('create_user_email_label', 'email');?>
-        <?php echo form_input($email);?>
-      </div>
-      <div class="form-group">
         <?php echo lang('edit_user_fname_label', 'first_name');?>
         <?php echo form_input($first_name);?>
       </div>

@@ -78,14 +78,14 @@
         //$('.error').html('Mohon Isikan').addClass('alert alert-danger');
         form.identity.focus();
         $('input[name="identity"]').parent().addClass('has-error'); 
-        $('input[name="identity"]').next().text('Usename Wajib Diisi');
+        $('input[name="identity"]').next().text('Wajib Diisi');
         return false;
       }
       if (form.password.value == ""){
         //$('.error').html('Mohon Isikan').addClass('alert alert-danger');
         form.password.focus();
         $('input[name="password"]').parent().addClass('has-error'); 
-        $('input[name="password"]').next().text('Password Wajib Diisi');
+        $('input[name="password"]').next().text('Wajib Diisi');
         return false;
       }
       return (true);

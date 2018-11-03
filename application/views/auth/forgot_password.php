@@ -27,7 +27,7 @@
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
           <div class="social-auth-links text-center">
-            <button type="submit" class="btn btn-success btn-block btn-flat">Login</button>
+            <button type="submit" class="btn btn-success btn-block btn-flat">Send</button>
             <br>
               <?php echo anchor('auth/login/', '<i class="fa fa-angle-double-right"></i> Back to Login');?>
           </div>
